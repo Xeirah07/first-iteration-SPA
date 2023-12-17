@@ -1,6 +1,6 @@
 body{
     color: #ddd;
-     background-image: url('/img/410036356_213597991789370_9076665987115375486_n.jpg')  ;
+    background-color: rgb(29, 28, 28);
   }
   
   .topnav {
@@ -41,7 +41,7 @@ body{
     max-width: 60rem;
     color: aliceblue;
     margin-top: 100px;
-    margin-left: 160px;
+    margin-left: 200px;
   }
   .home h1{
     font-size: 3rem;
