@@ -1,0 +1,145 @@
+body{
+    color: #ddd;
+    background-color: rgb(29, 28, 28);
+    background-image: url('bgr.jpg');
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+
+  .navs {
+    margin-top: 10px;
+    list-style-type: none;
+    float: left;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s;
+    text-align: center;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: rgb(43, 151, 240);
+}
+  
+  .Sar{
+      font-weight: 600;
+      font-style:oblique ;
+      margin-left: 50px;
+      color: rgb(121, 182, 184);
+  }
+  
+  .home{
+    max-width: 60rem;
+    color: aliceblue;
+    margin-top: 75px;
+    margin-left: 180px;
+  }
+  .home h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 0.5;
+  }
+  .home .animate{
+    position: relative;
+    width: 32.8rem;
+  }
+  .home .animate h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: aliceblue;
+  }
+  .home p{
+    font-size: 1rem;
+    margin: 2rem 0 4rem;
+  }
+
+ .Sar-pic:hover{
+    transform: scale(1.05); 
+ }
+
+  .about{
+    margin-top: 140px;
+    margin-left: 150px;
+  }
+
+  .about-h2{
+    margin-left: 30px;
+    text-decoration: underline;
+  }
+  h3{
+    margin-left: 30px;
+  }
+
+  .Sarah-pic{
+    width:auto;
+    height:400px;
+  }
+  .Sarah-pic:hover{
+    transform: scale(1.05); 
+}
+  
+  .project{
+    margin-top: 100px;
+    margin-left: 500px;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-family: 'Quicksand', sans-serif;
+      
+  }
+  .project:hover {
+    transform: scale(1.05); 
+}
+.link a {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+}
+
+.repo{
+    margin-top: 100px;
+    margin-left: 500px;
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(66, 66, 66);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    font-family: 'Quicksand', sans-serif;
+    color: aqua;
+      
+  }
+  .repo:hover {
+    transform: scale(1.05); 
+}
+    
+.projects{
+    margin-left: 350px;
+    margin-top: 100px;  
+}
+
+.link{
+    color: azure;
+}
